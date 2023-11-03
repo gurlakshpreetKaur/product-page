@@ -39,6 +39,7 @@ export default class MyDocument extends Document {
         return (
             <Html lang="en">
                 <Head>
+                    <title>Planet Ella- The Greatest Joy a Plant-Lover Could See</title>
                     <link rel="preconnect" href="https://fonts.googleapis.com" />
                     <link rel="preconnect" href="https://fonts.gstatic.com" />
                     <link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet" />
