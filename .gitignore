@@ -5,6 +5,8 @@
 /.pnp
 .pnp.js
 
+/pages/(utils)/APIKey.ts
+
 # testing
 /coverage
 
