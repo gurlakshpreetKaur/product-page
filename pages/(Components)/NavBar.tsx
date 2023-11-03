@@ -1,5 +1,6 @@
 import styled, { css } from 'styled-components';
 import { AiOutlineShop, AiOutlineShoppingCart, AiOutlineUser } from "react-icons/ai";
+import Link from 'next/link';
 
 const StyledNav = styled.nav`
     --p-y: 0.75rem;
@@ -62,9 +63,9 @@ export default function NavBar() {
         <NavPartition>
             <ul>
                 <NavListItem currentlyon="true">
-                    <a href="/" title="Products" role="navigation">
+                    <Link href="/" title="Products" role="navigation">
                         <AiOutlineShop aria-label='Navigate to Products' title="Products" />
-                    </a>
+                    </Link>
                 </NavListItem>
                 <NavListItem title="My Cart">
                     <a href="/cart" title="My Cart" role="navigation">

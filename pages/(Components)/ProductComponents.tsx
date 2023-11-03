@@ -74,7 +74,7 @@ export function ProductCard({ commonName, scientificName, description, sunlight,
 export function ProductGrid({ products }: { products: ProductInterface[] }) {
     return <StyledGrid>
         {products.map((card, i) =>
-            <motion.div
+            <motion.div key={i}
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}

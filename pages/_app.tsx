@@ -70,6 +70,9 @@ const theme: ThemeInterface = {
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
+      <Head>
+        <title>Planet Ella- The Greatest Joy a Plant-Lover Could See</title>
+      </Head>
       <GlobalStyle />
       <ThemeProvider theme={theme}>
         <NavBar />
